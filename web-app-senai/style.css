@@ -3,7 +3,10 @@ html, body{
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;   
+    background-color: #f4f4f4;
+    background-image: url(bg-albion.jpg);
+    background-repeat: no-repeat;
+    background-size: center;   
 }
 
 body{
@@ -19,10 +22,10 @@ body{
 }
 
 .container{
-    background-color: white;
+    background-color: #f2a25c;
     padding: 40px 20px;
     border-radius: 12px;
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     width: 320px;
     display: flex;
     flex-direction: column;
@@ -37,7 +40,7 @@ h2{
     font-size: 20px;
     text-align: center;
     font-weight: bold;
-    color: #284ea7;
+    color: #0d0d0d;
 }
 
 form{
@@ -57,12 +60,12 @@ input,button{
 }
 
 input{
-    border: 1px solid #ccc;
+    border: 1px solid #d97b29;
 }
 
 button{
-    background-color: #28a745;
-    color: white;
+    background-color: #d92b5a;
+    color: #d97b29;
     border: none;
     cursor: pointer;
     font-weight: bold;
@@ -72,13 +75,13 @@ button{
 }
 
 button:hover{
-    background-color: #218838;
+    background-color: #f22e3e;
 }
 
 .link-usuarios{
     margin-top: 25px;
     text-decoration: none;
-    color: #007bff;
+    color: #f22e3e;
     font-size: 14px;
 }
 
@@ -92,9 +95,9 @@ button:hover{
     right: -30px;
     padding: 15px;
     border-radius: 5px;
-    color: white;
+    color: #d97b29;
     font-weight: bold;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: right 0.5s ease-in-out opacity 0.5s ease-in-out;
     opacity: 0;
     cursor: pointer;
@@ -103,7 +106,7 @@ button:hover{
 }
 
 .mensagem.sucesso{
-    background-color: #28a745;
+    background-color: #f22e3e;
 }
 
 .mensagem.visivel{
