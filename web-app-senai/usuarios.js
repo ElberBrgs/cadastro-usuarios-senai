@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', carregarUsuarios)
 
-const carregarUsuarios = () => {
+function carregarUsuarios(){
     fetch('http://localhost:8080/usuarios')
     .then(response => {
         if (!response.ok) {
